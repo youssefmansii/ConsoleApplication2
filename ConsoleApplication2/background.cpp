@@ -1,6 +1,7 @@
 #include "background.h"
 #include "shapes.h"
 
+
 void drawBackgroundSky()
 {
     glBegin(GL_QUADS);
@@ -42,4 +43,12 @@ void drawForegroundPlanetSurface()
     float z = -3;
     glColor3f(0.30f, 0.56f, 0.90f);
     drawFilledCircle(0, -12.5f, z, 11.5f, 200);
+}
+void drawNebula(float cx, float cy, float z) {
+    glColor4f(0.45f, 0.20f, 0.70f, 1.0f);
+    drawEllipse(cx, cy, z, 2.2f, 1.0f, 80);
+    glColor4f(0.20f, 0.45f, 0.85f, 1.0f);
+    drawEllipse(cx + 0.8f, cy + 0.2f, z + 0.01f, 1.6f, 0.7f, 80);
+    glColor4f(0.90f, 0.35f, 0.65f, 1.0f);
+    drawEllipse(cx - 0.6f, cy - 0.1f, z + 0.02f, 1.4f, 0.6f, 80);
 }

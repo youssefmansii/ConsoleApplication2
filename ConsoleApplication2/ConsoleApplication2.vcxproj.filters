@@ -39,6 +39,9 @@
     <ClCompile Include="crystalrock.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="ufo.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="background.h">
@@ -60,6 +63,9 @@
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="shapes.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ufo.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>

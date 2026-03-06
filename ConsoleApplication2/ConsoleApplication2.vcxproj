@@ -131,11 +131,13 @@
     <ClCompile Include="player.cpp" />
     <ClCompile Include="Shapes.cpp" />
     <ClCompile Include="Spikedmine.cpp" />
+    <ClCompile Include="ufo.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="asteroid.h" />
     <ClInclude Include="background.h" />
     <ClInclude Include="crystalrock.h" />
+    <ClInclude Include="ufo.h" />
     <ClInclude Include="lasergate.h" />
     <ClInclude Include="player.h" />
     <ClInclude Include="shapes.h" />
